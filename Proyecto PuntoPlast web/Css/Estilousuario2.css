@@ -1,0 +1,202 @@
+body {
+background-image: url(../Imagenes/hexagono.jpg);
+     background-size:cover;
+background-attachment:fixed;
+background-position:center
+background-repeat:no-repeat;
+text-align: center; 
+min-width: 200px;
+font-family: verdana;
+}
+.t1{
+text-align: right;
+}
+.imagen {
+    height: auto
+    width:100%;
+    text-align: left;
+}
+.left{
+text-align: left;
+width: 100%;
+}
+table {
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+font-size: 12pt;
+font-family: verdana;
+text-align: center;
+display: inline-block;
+}
+buton{
+font-size: 10pt;
+font-family: verdana;
+}
+.tableheader {
+    width: 100%;
+}
+tr {
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+}
+th{
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+}
+td{
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+
+}
+.titulo {
+    font-size: 22;
+    font-family: verdana;
+    color: black;
+}
+a {
+text-decoration: none;
+color: black;
+}
+.contenedor {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+    margin:0 auto;
+    text-align: center;
+}
+.contenedoracord {
+    width: 25%;
+    height: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    margin:0 auto;
+    Box-sizing:border-box;
+    display: inline-block;
+    font-family: verdana;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    float: left;
+}
+
+.contenedoracord .menu {
+width: 100%;
+}
+
+.contenedoracord ul{
+list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.contenedoracord .menu ul{
+display: none;
+}
+
+.contenedoracord .menu ul li a{
+background: gray;
+    color: white;
+}
+
+.contenedoracord .menu li a{
+color: black;
+display: block;
+    padding: 15px 20px;
+    background: white;
+}
+
+.contenedoracord .menu li a:hover{
+color: white;
+background: #2E2E2E;
+}
+
+.contenedoracord .menu .icono{
+font-size: 14px;
+line-height: 16px;
+}
+
+.conenedoracord .menu .icono .izquierda{
+float: left;
+margin-right: 10px;
+}
+
+.conenedoracord .menu .icono .derecha{
+float: right;
+}
+
+.contenedoracord .menu .menu .activado > a{
+    background: blue;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    display:inline-block;
+    margin-bottom: 2%;
+    
+}
+.contenedormayor {
+    height: auto;
+    width: 70%;
+    display: inline-block;
+    vertical-align:top;
+    float: right;
+    background-color: white;
+}
+
+@media screen and (max-width: 1100px){
+   .contenedormayor{
+   width: 65%;
+   }
+}
+@media screen and (max-width: 990px){
+   .contenedormayor{
+   width: 60%;
+   }
+}
+@media screen and (max-width: 890px){
+   .contenedormayor{
+   width: 55%;
+   }
+}
+@media screen and (max-width: 790px){
+   .contenedoracord{
+    width: 100%;
+       float: inherit;
+    }
+
+    .contenedor{
+    width: 100%;
+    }
+    .contenedormayor{
+    width: 100%;
+        float: inherit;
+}
+       table {
+    max-width: 100%;
+    }
+}
+@media screen and (max-width: 470px){
+    
+       table {
+    max-width: 100%;
+       }
+}
+
+textarea {
+    width: 100%;
+}
+@media screen and (max-width: 400px){
+  
+}
+
+
+
+

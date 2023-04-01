@@ -1,0 +1,282 @@
+body {
+background-image: url(../Imagenes/hexagono.jpg);
+background-size:cover;
+background-attachment:fixed;
+background-position:center
+background-repeat:no-repeat;
+text-align: center; 
+width: 250 px;
+	}
+
+table {
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+font-size: 12pt;
+text-align: center;
+display: inline-block;
+	}
+
+.left{
+text-align: left;
+	}
+
+div {
+font-family: verdana;
+font-size: 8pt;
+color: black;   
+	}
+
+.marco {
+    padding: 0.01%;
+    border-color: blue;
+    background-color: white;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    height: 300px;
+    Box-sizing:border-box;
+    text-align: center;
+    margin-right:0;
+    margin-bottom: 2% ;
+    float: left;
+}
+.marco2 {
+    padding: 0%;
+    width: 73%;
+    text-align: center;
+    margin-bottom: 0% ;
+    float: right;
+}
+.marco img {
+    width: 200%;
+    height: 100%;
+}
+.marco2 img {
+    width: auto;
+    height: 200%;
+}
+.titulo {
+    font-size: 14pt;
+    font-family: verdana;
+    color: black;
+}
+
+.contenedor {
+    width: 102%;
+    height: auto;
+    min-width: 350px;
+    margin: 0%;
+    text-align: center;
+}
+
+
+p {
+    font-family: verdana;
+    font-size: 13pt;
+    color: black;
+}
+
+header {
+    width: 90%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    display:inline-block;
+    margin-bottom: 1.3%;
+    
+}
+
+.imagen {
+    height: auto;
+    text-align: left;
+}
+
+.marco3 {
+    padding: 0%;
+    width: 90%;
+    Box-sizing:border-box;
+    text-align: center;
+    margin-bottom: 1% ;
+    display:inline-block;
+}
+
+
+.marco3 img {
+    margin: 0%;
+}
+
+
+.descripcion {
+    font-family: verdana;
+    font-size: 14pt;
+}
+.search {
+    width: 50%;  
+}
+
+#block {
+    display: inline-block;
+    vertical-align:top;
+}
+
+
+.slides {
+    width: 100%;
+    height: auto;
+   background-color: #A9BCF5;
+    
+}
+
+.slides img{
+    width: auto;
+    height: 100%;
+}
+
+.slidesjs-pagination {
+    background: white;
+    list-style: none;
+    overflow: hidden;
+    background: #A9BCF5;
+    margin:auto;
+}
+
+.slidesjs-pagination li {
+float: left;
+
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: impact;
+    text-decoration: none;
+}
+
+.slides .active {
+background: blue;
+}
+
+.slidesjs-pagination li a:hover {
+background: blue;
+}
+
+.slidesjs-navigation{
+    background: #A9BCF5;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    float: right;
+    width: auto;
+}
+@media screen and (max-width: 1035px){
+.marco2 {
+width: 60%;
+}
+}
+@media screen and (max-width: 905px){
+.marco2 {
+width: 55%;
+}
+}
+@media screen and (max-width: 805px){
+.marco2 {
+width: 50%;
+}
+    .slidesjs-pagination {
+    margin:auto;
+}
+}
+@media screen and (max-width: 790px){
+    header{
+    width: 95%;
+    }
+            .marco3 {
+	width: 95%;
+        margin: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+} 
+
+    .search{
+    width: 800%;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 731px){
+    header{
+    width: 100%;
+    }
+.contenedor{
+width: 100%;
+}
+
+        .marco3 {
+width: 100%;
+          margin: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+} 
+}
+@media screen and (max-width: 650px){
+    .marco{
+float: inherit;
+}
+    .marco2 {
+width: 100%;
+    float: inherit;
+}
+}
+@media screen and (max-width: 470px){
+    header{
+    width: 100%;
+    }
+        .marco3 {
+width: 100%;
+}  
+    .slidesjs-pagination {
+        width: 100%;
+        margin:auto;
+    }
+    .slidesjs-navigation {
+        width: 20%;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 400px){
+
+
+}
+@media screen and (max-width: 300px){
+    .marco {
+    margin: 0px;
+        margin-bottom: 5px;
+    }
+    .marco2{
+      margin: 0px;
+        margin-bottom: 5px;
+    }
+    .marco3 {
+     width: 100%;
+     margin: 0px;
+     margin-bottom: 1px;
+     margin-left: 0px;
+}  
+  
+.slidesjs-pagination {
+        margin:auto;
+        width: 100%;
+}
+    .slidesjs-navigation{
+        margin:auto;
+        width: 20%
+    }
+}
+
+#white {
+    background-color: white;
+}

@@ -1,0 +1,106 @@
+body {
+background-image: url(../Imagenes/hexagono.jpg);
+     background-size:cover;
+background-attachment:fixed;
+background-position:center
+background-repeat:no-repeat;
+text-align: center; 
+min-width: 200px;
+}
+.t1{
+text-align: right;
+}
+div {
+font-family: verdana;
+font-size: 12pt;
+color: black;   
+}
+a{
+font-size: 10pt;
+}
+table {
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+font-size: 12pt;
+text-align: center;
+display: inline-block;
+    
+}
+tr {
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+}
+th{
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+}
+td{
+outline-color: inherit;
+outline-style:inherit;
+outline-width:inherit;
+}
+
+header {
+    width: 90%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    display:inline-block;
+    margin-bottom: 2%; 
+}
+
+.imagen {
+    height: auto
+    width:100%;
+    align-content: left;
+}
+textarea {
+    width: 100%;
+}
+.marco3 {
+    min-width: 500px;
+      padding: 0.01%;
+    background-color: white;
+    width: 50%;
+    Box-sizing:border-box;
+    text-align: center;
+    margin-bottom: 2% ;
+    display:inline-block;    
+}
+
+@media screen and (max-width: 570px){
+        .marco3 {
+min-width: inherit;
+width: 100%;
+}  
+}
+
+@media screen and (max-width: 400px){
+    .space{display: block;}
+ .marco3 {
+width: 100%;
+}  
+}
+
+@media screen and (max-width: 300px){
+    .marco3 {
+width: 100%;
+          margin: 0px;
+        margin-bottom: 5px;
+}  
+}
+
+#15% {
+    height: 15%;
+}
+
+select {
+    width: 48%;
+}
+
+.input {
+    width: 100%;
+}
